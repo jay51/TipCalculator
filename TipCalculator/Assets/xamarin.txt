@@ -1,0 +1,15 @@
+﻿To  add behaver To your activity
+Activity: is an axml for the design file and C# file for the behaver. A behaver must inherit from the activity class
+add the activity attribute to your class ([activity]).
+Note:An application desgnate and entry point by setting (ManiLanucher = true) on the activity attribute.
+
+
+drawable: is a folder for the style.
+Note: elemnts are called view in xamarin.
+
+androidManifast.xml:Is a faile that include all the requermnts that your app needs such as (log icon,version#,permissions...)
+Note:every app must have a androidManifast.
+
+Note: views you are trying to access are created in (SetContentView) so views don't exist until after that call completes
+
+int32.TryParse: takes two arguments (text to parse,out number)text to parse and the number to store the value returned in.
